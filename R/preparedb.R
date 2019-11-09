@@ -117,6 +117,7 @@ keggGetm <- function(dbentries,
                 return(readDNAStringSet(t))
         }
     }
+    Sys.sleep(0.5)
 }
 ##' @title Extract kegg code
 ##' @description get.kegg.code are modified from pathview kegg.species.code
