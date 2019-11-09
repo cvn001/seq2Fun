@@ -9,6 +9,7 @@
 ##' @return list with sequences and annotation for pathway
 ##' @author Kai Guo
 ##' @export
+
 preparedb <- function(species = "human", seqtype = "AA", savedb = TRUE,
                     path = NULL){
     if(is.null(path)){
